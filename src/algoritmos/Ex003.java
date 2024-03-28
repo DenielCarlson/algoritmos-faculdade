@@ -18,7 +18,7 @@ public class Ex003 {
 		
 		salario *= 1.25;
 		
-		System.out.println("O novo salário é: " + salario);
+		System.out.println("O novo salário é: " + String.format("$%.2f", salario));
 		
 		input.close();
 	}

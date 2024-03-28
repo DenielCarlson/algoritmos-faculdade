@@ -24,7 +24,7 @@ public class Ex002 {
 		
 		media = sum/3;
 		
-		System.out.println("A média aritmética das notas é igual a " + media);
+		System.out.println("A média aritmética das notas é igual a " + String.format("$%.2f", media));
 		
 		input.close();
 	}

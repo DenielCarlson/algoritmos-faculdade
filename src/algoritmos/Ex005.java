@@ -18,7 +18,7 @@ public class Ex005 {
 		
 		novoSalario = (salarioBase * 1.05)* 0.93;
 		
-		System.out.println("Salário a receber: " + novoSalario);
+		System.out.println("Salário a receber: " + String.format("$%.2f", novoSalario));
 		
 		input.close();
 	}

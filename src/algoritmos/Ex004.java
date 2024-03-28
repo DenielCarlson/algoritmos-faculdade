@@ -22,7 +22,7 @@ public class Ex004 {
 		
 		salario *= (1 + (percentualAumento/100));
 		
-		System.out.println("O novo salário é: " + salario);
+		System.out.println("O novo salário é: " +  String.format("$%.2f", salario));
 		
 		input.close();
 	}
