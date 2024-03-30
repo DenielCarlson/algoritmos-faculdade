@@ -36,6 +36,6 @@ public class EquacaoSegundoGrau {
 			System.out.println("Equação não tem solução no conjuto dos números reais");
 		}
 		
-		
+		input.close();
 	}
 }
