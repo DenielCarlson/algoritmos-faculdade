@@ -1,9 +1,9 @@
-package algoritmos;
+package algoritmos.lista_02;
 
 import java.util.Scanner;
 import java.util.Locale;
 
-public class Ex004 {
+public class Ex003 {
 
 	
 	public static void main(String[] args) {
@@ -12,17 +12,13 @@ public class Ex004 {
 		Scanner input = new Scanner(System.in);
 		
 		double salario;
-		double percentualAumento;
 		
 		System.out.print("Salário: ");
 		salario = Double.parseDouble(input.nextLine());
 		
-		System.out.print("Percentual de aumento: ");
-		percentualAumento = Double.parseDouble(input.nextLine());
+		salario *= 1.25;
 		
-		salario *= (1 + (percentualAumento/100));
-		
-		System.out.println("O novo salário é: " +  String.format("$%.2f", salario));
+		System.out.println("O novo salário é: " + String.format("$%.2f", salario));
 		
 		input.close();
 	}

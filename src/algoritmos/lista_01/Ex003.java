@@ -1,10 +1,10 @@
-package algoritmos;
+package algoritmos.lista_01;
 
 import java.util.Scanner;
 import java.math.BigDecimal;
 import java.util.Locale;
 
-public class MenorQuantidadeDeCedulas {
+public class Ex003 {
 
 	public static void main(String[] args) {
 		

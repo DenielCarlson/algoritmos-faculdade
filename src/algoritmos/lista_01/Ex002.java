@@ -1,9 +1,9 @@
-package algoritmos;
+package algoritmos.lista_01;
 
 import java.util.Scanner;
 import java.util.Locale;
 
-public class MediaPonderada {
+public class Ex002 {
 
 	public static void main(String[] args) {
 		

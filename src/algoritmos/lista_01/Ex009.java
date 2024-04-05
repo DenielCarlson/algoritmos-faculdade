@@ -1,4 +1,4 @@
-package algoritmos;
+package algoritmos.lista_01;
 
 import java.util.HashMap;
 import java.util.Locale;
@@ -6,7 +6,7 @@ import java.util.Map;
 import java.util.Scanner;
 import java.util.Stack;
 
-public class ConverterDecimalParaHexadecimal {
+public class Ex009 {
 
 	public static void main(String[] args) {
 		

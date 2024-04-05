@@ -1,11 +1,11 @@
-package algoritmos;
+package algoritmos.lista_01;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
 import java.util.Scanner;
 
-public class NumeroPerfeito {
+public class Ex008 {
 
 	public static void main(String[] args) {
 		

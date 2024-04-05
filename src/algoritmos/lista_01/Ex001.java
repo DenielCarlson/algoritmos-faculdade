@@ -1,9 +1,9 @@
-package algoritmos;
+package algoritmos.lista_01;
 
 import java.util.Scanner;
 import java.util.Locale;
 
-public class EquacaoSegundoGrau {
+public class Ex001 {
 
 	public static void main(String[] args) {
 		

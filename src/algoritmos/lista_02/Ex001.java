@@ -1,4 +1,4 @@
-package algoritmos;
+package algoritmos.lista_02;
 
 import java.util.Scanner;
 import java.util.Locale;
