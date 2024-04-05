@@ -15,7 +15,7 @@ public class Ex006 {
 		String stringHoras, stringMinutos, stringSegundos;
 		
 		
-		System.out.println("CALCULAR UMA MEDIDA DE TEMPO EM SEGUNDOS E MOSTRAR NO FORMATO HH:mm:ss");
+		System.out.println("CALCULAR UMA MEDIDA DE TEMPO EM SEGUNDOS E MOSTRAR NO FORMATO HORA:MINUTO.SEGUNDO");
 		System.out.println("Exemplo: 3600 segundos que seria igual a 01:00:00");
 		System.out.print("Medida em segundos: ");
 		medidaSegundos = Double.parseDouble(input.nextLine());
@@ -32,7 +32,7 @@ public class Ex006 {
 		stringMinutos = (minutos < 10)? String.format("0%.0f", minutos):String.format("%.0f", minutos);
 		stringSegundos = (segundos < 10)? String.format("0%.0f", segundos):String.format("%.0f", segundos);
 		
-		System.out.printf(stringHoras + ":" + stringMinutos + ":" + stringSegundos);
+		System.out.printf(stringHoras + ":" + stringMinutos + "." + stringSegundos);
 		
 		input.close();
 	}
