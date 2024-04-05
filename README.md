@@ -1,11 +1,3 @@
-<h1>Lista de Exercícios 02</h1>
-
-<p>Uma lista com exercícios simples, que fiz antes da lista 01. Portanto, o primeiro exercício dessa lista equivale a classe java, Ex001.</p>
-
-<img src= "imagens/lista_exs_02.png">
-
-<br>
-
 <h1>Lista de Exercícios 01</h1>
 <h2>Exercício 001 - Equação do 2 grau</h2>
 <img src="imagens/lista_exs_01_ex01.png">
@@ -33,3 +25,17 @@
 
 <h2>Exercício 009 - Base decimal para Hexadecimal</h2>
 <img src="imagens/lista_exs_01_ex09.png">
+
+<br>
+
+<h1>Lista de Exercícios 02</h1>
+
+<img src= "imagens/lista_exs_02.png">
+
+<br>
+
+<h1>Lista de Exercícios 03</h1>
+
+<img src = "imagens/lista_exs_03_part_1.png">
+
+<img src = "imagens/lista_exs_03_part_2.png">
