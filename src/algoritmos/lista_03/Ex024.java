@@ -23,7 +23,7 @@ public class Ex024 {
 		
 		//fiz de duas formas, pra mostrar uma mais simples usando Arrays.paraLLeLSort e outra usando mais a lógica, Então:
 		
-		Arrays.parallelSort(valores, 0, 3);
+		Arrays.parallelSort(valores, 0, 2);
 		
 		for(int valor : valores) {
 			
@@ -57,5 +57,7 @@ public class Ex024 {
 			System.out.println(valor);
 		}
 		*/
+		
+		input.close();
 	}
 }

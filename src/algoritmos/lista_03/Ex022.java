@@ -35,5 +35,7 @@ public class Ex022 {
 		}
 		
 		System.out.println("Salario total do vendedor: R$" + String.format("%.2f", salario));
+		
+		input.close();
 	}
 }

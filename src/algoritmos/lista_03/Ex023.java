@@ -29,5 +29,7 @@ public class Ex023 {
 			System.out.println(valor + " é igual a zero!");
 			
 		}
+		
+		input.close();
 	}
 }
